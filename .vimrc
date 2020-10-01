@@ -17,7 +17,7 @@ set shiftwidth=2
 set shiftround
 set expandtab
 set nojoinspaces   " Use one space, not two, after punctuation
-set textwidth=160  " Make it obvious where 80 characters is
+"set textwidth=160  " Make it obvious where 160 characters is
 set colorcolumn=+1
 highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
 set splitright     " Open new split panes to right and bottom for natural feel
