@@ -1,0 +1,279 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Retrowave",
+            "cursorShape": "emptyBox",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "BlexMono Nerd Font Mono",
+                "size": 11,
+                "weight": "semi-light"
+            },
+            "intenseTextStyle": "all",
+            "opacity": 90,
+            "scrollbarState": "hidden",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "closeOnExit": "always",
+                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+                "hidden": false,
+                "historySize": 0,
+                "name": "Ubuntu 22.04.1 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+                "hidden": true,
+                "name": "Ubuntu-22.04",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#303446",
+            "black": "#51576D",
+            "blue": "#8CAAEE",
+            "brightBlack": "#626880",
+            "brightBlue": "#8CAAEE",
+            "brightCyan": "#81C8BE",
+            "brightGreen": "#A6D189",
+            "brightPurple": "#F4B8E4",
+            "brightRed": "#E78284",
+            "brightWhite": "#A5ADCE",
+            "brightYellow": "#E5C890",
+            "cursorColor": "#F2D5CF",
+            "cyan": "#81C8BE",
+            "foreground": "#C6D0F5",
+            "green": "#A6D189",
+            "name": "Catppuccin Frappe",
+            "purple": "#F4B8E4",
+            "red": "#E78284",
+            "selectionBackground": "#626880",
+            "white": "#B5BFE2",
+            "yellow": "#E5C890"
+        },
+        {
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
+        },
+        {
+            "background": "#1F1F1F",
+            "black": "#3A3D43",
+            "blue": "#4F76A1",
+            "brightBlack": "#888987",
+            "brightBlue": "#186DE3",
+            "brightCyan": "#2E706D",
+            "brightGreen": "#0F722F",
+            "brightPurple": "#FB0067",
+            "brightRed": "#FB001F",
+            "brightWhite": "#FDFFB9",
+            "brightYellow": "#C47033",
+            "cursorColor": "#F83E19",
+            "cyan": "#578FA4",
+            "foreground": "#B9BCBA",
+            "green": "#879A3B",
+            "name": "Dimmed Monokai",
+            "purple": "#855C8D",
+            "red": "#BE3F48",
+            "selectionBackground": "#2A2D32",
+            "white": "#B9BCBA",
+            "yellow": "#C5A635"
+        },
+        {
+            "background": "#403E41",
+            "black": "#403E41",
+            "blue": "#FC9867",
+            "brightBlack": "#727072",
+            "brightBlue": "#FC9867",
+            "brightCyan": "#78DCE8",
+            "brightGreen": "#A9DC76",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#FF6188",
+            "brightWhite": "#FCFCFA",
+            "brightYellow": "#FFD866",
+            "cursorColor": "#FCFCFA",
+            "cyan": "#78DCE8",
+            "foreground": "#FCFCFA",
+            "green": "#A9DC76",
+            "name": "Monokai Pro",
+            "purple": "#AB9DF2",
+            "red": "#FF6188",
+            "selectionBackground": "#FCFCFA",
+            "white": "#FCFCFA",
+            "yellow": "#FFD866"
+        },
+        {
+            "background": "#2C2525",
+            "black": "#403838",
+            "blue": "#F38D70",
+            "brightBlack": "#72696A",
+            "brightBlue": "#F38D70",
+            "brightCyan": "#85DACC",
+            "brightGreen": "#ADDA78",
+            "brightPurple": "#A8A9EB",
+            "brightRed": "#FD6883",
+            "brightWhite": "#FFF1F3",
+            "brightYellow": "#F9CC6C",
+            "cursorColor": "#FFF1F3",
+            "cyan": "#85DACC",
+            "foreground": "#FFF1F3",
+            "green": "#ADDA78",
+            "name": "Monokai Pro (Filter Ristretto)",
+            "purple": "#A8A9EB",
+            "red": "#FD6883",
+            "selectionBackground": "#C3B7B8",
+            "white": "#FFF1F3",
+            "yellow": "#F9CC6C"
+        },
+        {
+            "background": "#1A1A1A",
+            "black": "#1A1A1A",
+            "blue": "#9D65FF",
+            "brightBlack": "#625E4C",
+            "brightBlue": "#9D65FF",
+            "brightCyan": "#58D1EB",
+            "brightGreen": "#98E024",
+            "brightPurple": "#F4005F",
+            "brightRed": "#F4005F",
+            "brightWhite": "#F6F6EF",
+            "brightYellow": "#E0D561",
+            "cursorColor": "#F6F7EC",
+            "cyan": "#58D1EB",
+            "foreground": "#C4C5B5",
+            "green": "#98E024",
+            "name": "Monokai Soda",
+            "purple": "#F4005F",
+            "red": "#F4005F",
+            "selectionBackground": "#343434",
+            "white": "#C4C5B5",
+            "yellow": "#FA8419"
+        },
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#ECEFF4",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "Nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#ECEFF4",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        },
+        {
+            "background": "#070825",
+            "black": "#181A1F",
+            "blue": "#46BDFF",
+            "brightBlack": "#FF16B0",
+            "brightBlue": "#46BDFF",
+            "brightCyan": "#FF901F",
+            "brightGreen": "#FCEE54",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#F85353",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFFF",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#DF81FC",
+            "foreground": "#46BDFF",
+            "green": "#929292",
+            "name": "Retrowave",
+            "purple": "#FF92DF",
+            "red": "#FF16B0",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FCEE54"
+        }
+    ],
+    "snapToGridOnResize": true,
+    "useAcrylicInTabRow": true
+}
