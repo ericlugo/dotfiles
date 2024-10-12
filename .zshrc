@@ -2,6 +2,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 CASE_SENSITIVE="true"
 EDITOR="nvim"
+ZSH_TMUX_AUTOSTART="true"
+ZSH_TMUX_DEFAULT_SESSION_NAME="origin"
 
 # Plugins to load...
 #   Standard plugins: $ZSH/plugins/
@@ -10,6 +12,7 @@ plugins=(
   git
   git-commit
   thefuck
+  tmux
   zsh-autosuggestions
   zsh-syntax-highlighting
 )

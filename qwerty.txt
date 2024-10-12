@@ -1,0 +1,4 @@
+[scroll]>[shutdn]
+[rctrl]>[rwin]
+[rwin]>[hyper]
+

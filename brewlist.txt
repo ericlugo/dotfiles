@@ -11,6 +11,7 @@ thefuck
 wget
 telnet
 neovim
+tmux
 
 jandedobbeleer/oh-my-posh/oh-my-posh
 font-anonymice-nerd-font
