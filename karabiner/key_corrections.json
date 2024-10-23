@@ -1,0 +1,91 @@
+{
+  "title": "Key Corrections",
+  "rules": [
+    {
+      "description": "[Insert/Backslash] key to [tmux prefix] chord",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "[LCtrl] key to [LCmd] key",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_control"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "left_gui"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "[CapsLock] key tap to [Esc] key tap, hold for [LCtrl]",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 200,
+            "basic.to_if_held_down_timeout_milliseconds": 200
+          },
+          "to_if_alone": [
+            {
+              "repeat": true,
+              "key_code": "escape"
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "repeat": true,
+              "key_code": "left_control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "[RCtrl] key to [Hyper] chord",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_control"
+          },
+          "to": [
+            {
+              "repeat": true,
+              "key_code": "left_control",
+              "modifiers": [
+                "left_shift",
+                "left_alt",
+                "left_gui"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
