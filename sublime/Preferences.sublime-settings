@@ -1,0 +1,13 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "AnonymicePro Nerd Font Mono",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "auto",
+	"light_color_scheme": "Catppuccin Latte.sublime-color-scheme",
+	"dark_color_scheme": "Catppuccin Frappe.sublime-color-scheme"
+}
