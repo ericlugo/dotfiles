@@ -1,0 +1,15 @@
+{
+  "$schema": "https://joplinapp.org/schema/settings.json",
+  "sync.target": 9,
+  "sync.9.path": "${JOPLIN_PATH}",
+  "sync.9.username": "${JOPLIN_USER}",
+  "sync.9.password": "${JOPLIN_PASS}",
+  "sync.interval": 300,
+  "locale": "en_US",
+  "markdown.plugin.softbreaks": false,
+  "markdown.plugin.typographer": false,
+  "api.token": "${JOPLIN_TOKEN}",
+  "editor": "subl -w",
+  "notes.sortOrder.field": "user_updated_time",
+  "layout.note.factor": 4
+}
