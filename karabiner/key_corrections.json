@@ -44,7 +44,10 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "caps_lock"
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [ "any" ]
+            }
           },
           "parameters": {
             "basic.to_if_alone_timeout_milliseconds": 200,
