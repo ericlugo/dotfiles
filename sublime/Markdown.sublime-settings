@@ -1,0 +1,7 @@
+// syntax-specific settings in here override those in "Preferences.sublime-settings"
+{
+  "extensions":
+  [
+    "md"
+  ],
+}

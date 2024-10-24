@@ -1,0 +1,39 @@
+[
+  {
+    "caption": ":q - Close Current",
+    "command": "close"
+  },
+  {
+    "caption": ":qa - Close All",
+    "command": "close_all"
+  },
+  {
+    "caption": ":wa - Save All",
+    "command": "save_all"
+  },
+  {
+    "caption": ":wq - Write and Quit",
+    "command": "chain",
+    "args": {
+      "commands" : [
+        { "command": "save", "args": {} },
+        { "command": "close", "args": {} }
+      ]
+    }
+  },
+  {
+    "caption": ":wqa - Write All and Exit",
+    "command": "chain",
+    "args": {
+      "commands" : [
+        { "command": "save_all", "args": {} },
+        { "command": "close_all_without_confirm", "args": {} },
+        { "command": "exit", "args": {} }
+      ]
+    }
+  },
+  {
+    "caption": ":exit - Exit Sublime",
+    "command": "exit"
+  }
+]

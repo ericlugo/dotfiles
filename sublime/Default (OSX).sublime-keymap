@@ -1,0 +1,11 @@
+[
+  /* ============================================================================================== General Bindings */
+  
+  // tbd
+
+
+  /* ============================================================================================= Markdown Bindings */
+
+  // Render Markdown in browser
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser": "markdown"} },
+]

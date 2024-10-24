@@ -3,11 +3,16 @@
 {
 	"font_face": "AnonymicePro Nerd Font Mono",
 	"font_size": 15,
-	"ignored_packages":
-	[
-		"Vintage",
+	"ignored_packages": [
 	],
+  "vintage_start_in_command_mode": true,
+  "line_numbers": true,
+  "translate_tabs_to_spaces": true,
 	"color_scheme": "auto",
 	"light_color_scheme": "Catppuccin Latte.sublime-color-scheme",
-	"dark_color_scheme": "Catppuccin Frappe.sublime-color-scheme"
+	"dark_color_scheme": "Catppuccin Frappe.sublime-color-scheme",
+	"index_files": true,
+  "close_windows_when_empty": true,
+  "ask_before_closing": false,
+  "close_only_active_window": false
 }

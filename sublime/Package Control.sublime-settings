@@ -5,6 +5,10 @@
 	],
 	"installed_packages":
 	[
-		"Catppuccin color schemes"
+		"Catppuccin color schemes",
+		"Close All without Confirmation",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
 	],
 }
