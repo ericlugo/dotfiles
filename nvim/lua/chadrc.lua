@@ -14,7 +14,7 @@ local M = {
       -- round and block will work for minimal theme only
       separator_style = "round"
     }
-  }
+  },
 }
 
 return M

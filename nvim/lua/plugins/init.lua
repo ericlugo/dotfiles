@@ -5,7 +5,15 @@ return {
     opts = require "configs.conform",
   },
 
-  -- These are some examples, uncomment them if you want to see them work!
+  {
+    "hrsh7th/nvim-cmp",
+    opts = {
+      completion = {
+        autocomplete = false,
+      }
+    }
+  },
+
   {
     "neovim/nvim-lspconfig",
     config = function()
