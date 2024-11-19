@@ -7,11 +7,7 @@ return {
 
   {
     "hrsh7th/nvim-cmp",
-    opts = {
-      completion = {
-        autocomplete = false,
-      }
-    }
+    opts = require "configs.nvim-cmp",
   },
 
   {
@@ -23,12 +19,17 @@ return {
 
   {
   	"nvim-treesitter/nvim-treesitter",
-  	opts = {
-  		ensure_installed = {
-  			"vim", "lua", "vimdoc", "html", "css"
-  		},
-  	},
+  	opts = require "configs.nvim-treesitter",
+  },
+
+  {
+    "folke/todo-comments.nvim",
+    lazy = false,
+    config = function()
+      require("todo-comments").setup()
+    end,
   },
 
   { "ThePrimeagen/vim-be-good", lazy = false }
 }
+
